@@ -1,0 +1,6 @@
+{
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "latex-workshop.latex.tools": [{"name": "latexmk-xe", "command": "latexmk", "args": ["-xelatex", "-outdir=%OUTDIR%", "-interaction=nonstopmode", "-halt-on-error", "%DOC%"]}],
+  "latex-workshop.latex.recipes": [{"name": "KIB: XeLaTeX", "tools": ["latexmk-xe"]}],
+  "latex-workshop.latex.autoBuild.run": "never"
+}
